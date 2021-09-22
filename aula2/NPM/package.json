@@ -1,0 +1,24 @@
+{
+  "name": "faker",
+  "version": "1.0.0",
+  "description": "assincrono 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaomHeberle/WEB2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaomHeberle/WEB2/issues"
+  },
+  "homepage": "https://github.com/joaomHeberle/WEB2#readme",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "i": "^0.3.7",
+    "npm": "^7.24.0"
+  }
+}
