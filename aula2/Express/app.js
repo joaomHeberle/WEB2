@@ -30,15 +30,16 @@ app.get("/repetir/:v1/:v2", (req, res) =>{
 
 
 app.get('/som/:v1', (req, res) =>{ 
-    if(req.params.v1=="cao")
+    const{v1} = req.params;
+    if(v1=="cao")
     res.send('O cachorro faz '+'Auuu Auuu Auuu'+'.');
-    else if(req.params.v1=="gato")
+    else if(v1=="gato")
     res.send('O gato faz '+'Miauuu'+'.');
-    else if(req.params.v1=="vaca")
+    else if(v1=="vaca")
     res.send('A vaca faz '+'Mooon'+'.');
-    else if(req.params.v1=="ovelha")
+    else if(v1=="ovelha")
     res.send('A ovelha faz '+'Meeeee'+'.');
-    else if(req.params.v1=="cavalo")
+    else if(v1=="cavalo")
     res.send('O cavalo faz '+'Rhiiiii'+'.');
     else
     res.send('Animal desconhecido.');
