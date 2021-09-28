@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+    <title>aula 3</title>
+
+</head>
+<body>
+    <h1>o inverso de <%= q %>  é <%= troca %></h1>
+    <% if (a) {%>
+        <h1>a palavra '<%=q%>' é um palindromo</h1>
+     <% } %> 
+     <h1><%= a ?'a palavra '+q+' é um palindromo':'' %> </h1>
+     <h1><%= a ?'a palavra '+q+' é um palindromo':'a palavra '+q+' não é um palindromo' %> </h1>
+</body>
+</html>
