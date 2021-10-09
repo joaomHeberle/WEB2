@@ -6,3 +6,54 @@ body{
     text-align: center;
     background-color: darkgrey;
 }
+
+div#topo{
+    background-color: red;
+    color: aquamarine;
+    height: 20px;
+    width: 100%;
+}
+header{
+    background-color: red;
+    color: aquamarine;
+    height: 20px;
+    width: 100%;
+}
+footer{
+    background-color: red;
+    color: aquamarine;
+    height: 20px;
+    width: 100%;
+}
+
+
+div#inputCompra{
+    width: 100%;
+    text-align: center;
+}
+
+form{
+    width: 100%;
+    text-align: center;
+    
+}
+form#formCompra{
+    
+    margin-bottom: 200px;
+}
+
+
+div#Dlabel{
+
+    width: 100%;
+ 
+}
+
+div#Dimput{
+  
+    width: 100%;
+   
+}
+p{
+    color: beige;
+}
