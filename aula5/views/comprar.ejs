@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<%-include('partials/head') %>
+
+    <body>
+        <%-include('partials/header') %>
+            <h1>voce comprou</h1>
+            <div id="inputCompra">
+                <form  action="/confirma" id="formCompra" method="post">
+                    <div id="Dlabel">
+                        <label for="Fnome">Nome:</label>
+                    </div>
+                    <div id="Dimput">
+                        <input type="text" name="nome" id="Fnome" alt="digite seu nome"><br>
+                    </div>
+                    <div id="Dlabel">
+                        <label for="Fendereco">Endereço:</label>
+                    </div>
+                    <div id="Dimput">
+                        <input type="text" id="Fendereco" name="endereco" alt="digite seu nome"><br>
+                    </div>
+                    <div id="Dlabel">
+                        <label for="Femail">Email:</label>
+                    </div>
+                    <div id="Dimput">
+                        <input type="email" name="email" id="Femail"><br>
+                    </div>
+                    <div id="Dlabel">
+                        <label for="Fqtd">Quantidade:</label>
+                    </div>
+                    <div id="Dimput">
+                        <input type="text" name="qtd" id="Fqtd"><br>
+                    </div>
+                    <script src="script/function.js"></script>
+                    <button type="submit">Confirmar compra</button>
+                </form>
+            </div>
+            
+
+            <%-include('partials/footer') %>
+     
+    </body>
+
+</html>
