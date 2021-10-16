@@ -2,8 +2,12 @@ const express = require('express');
 const port = 3000;
 const methodOverride = require('method-override');
 const app = express();
+const path = require('path');
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
+
+
+app.set('views',path.join(__dirname,'views'));
 let pessoas = [
     {
         nome: "joao marco",
@@ -38,7 +42,7 @@ app.post("/pessoas", (req, res) => {
 
     const {nome,id} = req.body;
     pessoas.push({nome, id});
-    res.redirect('pessoas');
+    res.redirect('pessoas/show');
 
 });
 app.get("/pessoas/:id/edit", (req, res) => {
@@ -53,6 +57,12 @@ app.patch("/pessoas/:id", (req, res) => {
     const novoNome = req.body.nome;
     const pessoa = pessoas.find(pessoa => pessoa.id == id);
     pessoa.nome = novoNome;
+    res.redirect('/pessoas');
+
+});
+app.delete("/pessoas/:id", (req, res) => {
+    const { id } = req.params;
+    pessoas = pessoas.filter(pessoa => pessoa.id != id);
     res.redirect('/pessoas');
 
 });
