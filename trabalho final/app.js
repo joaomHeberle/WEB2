@@ -53,7 +53,13 @@ app.set('view engine', 'ejs');
 app.get("/",  (req, res) => {
     //const pessoas =await Pessoa.find({});
 
-    res.render('jogo/index');
+    res.render('index');
+
+});
+app.get("/inicio",  (req, res) => {
+    //const pessoas =await Pessoa.find({});
+
+    res.render('jogo/inicio');
 
 });
 
