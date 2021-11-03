@@ -1,0 +1,3014 @@
+{
+    "frames": {
+        "valorant-vergaderzaal-kingdom-come0.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come1.png": {
+            "frame": {
+                "x": 640,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come2.png": {
+            "frame": {
+                "x": 1280,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come3.png": {
+            "frame": {
+                "x": 1920,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come4.png": {
+            "frame": {
+                "x": 2560,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come5.png": {
+            "frame": {
+                "x": 3200,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come6.png": {
+            "frame": {
+                "x": 3840,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come7.png": {
+            "frame": {
+                "x": 4480,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come8.png": {
+            "frame": {
+                "x": 5120,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come9.png": {
+            "frame": {
+                "x": 5760,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come10.png": {
+            "frame": {
+                "x": 6400,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come11.png": {
+            "frame": {
+                "x": 0,
+                "y": 520,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come12.png": {
+            "frame": {
+                "x": 640,
+                "y": 520,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come13.png": {
+            "frame": {
+                "x": 1280,
+                "y": 520,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come14.png": {
+            "frame": {
+                "x": 1920,
+                "y": 520,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come15.png": {
+            "frame": {
+                "x": 2560,
+                "y": 520,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come16.png": {
+            "frame": {
+                "x": 3200,
+                "y": 520,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come17.png": {
+            "frame": {
+                "x": 3840,
+                "y": 520,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come18.png": {
+            "frame": {
+                "x": 4480,
+                "y": 520,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come19.png": {
+            "frame": {
+                "x": 5120,
+                "y": 520,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come20.png": {
+            "frame": {
+                "x": 5760,
+                "y": 520,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come21.png": {
+            "frame": {
+                "x": 6400,
+                "y": 520,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come22.png": {
+            "frame": {
+                "x": 0,
+                "y": 1040,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come23.png": {
+            "frame": {
+                "x": 640,
+                "y": 1040,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come24.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1040,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come25.png": {
+            "frame": {
+                "x": 1920,
+                "y": 1040,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come26.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1040,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come27.png": {
+            "frame": {
+                "x": 3200,
+                "y": 1040,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come28.png": {
+            "frame": {
+                "x": 3840,
+                "y": 1040,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come29.png": {
+            "frame": {
+                "x": 4480,
+                "y": 1040,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come30.png": {
+            "frame": {
+                "x": 5120,
+                "y": 1040,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come31.png": {
+            "frame": {
+                "x": 5760,
+                "y": 1040,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come32.png": {
+            "frame": {
+                "x": 6400,
+                "y": 1040,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come33.png": {
+            "frame": {
+                "x": 0,
+                "y": 1560,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come34.png": {
+            "frame": {
+                "x": 640,
+                "y": 1560,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come35.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1560,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come36.png": {
+            "frame": {
+                "x": 1920,
+                "y": 1560,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come37.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1560,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come38.png": {
+            "frame": {
+                "x": 3200,
+                "y": 1560,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come39.png": {
+            "frame": {
+                "x": 3840,
+                "y": 1560,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come40.png": {
+            "frame": {
+                "x": 4480,
+                "y": 1560,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come41.png": {
+            "frame": {
+                "x": 5120,
+                "y": 1560,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come42.png": {
+            "frame": {
+                "x": 5760,
+                "y": 1560,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come43.png": {
+            "frame": {
+                "x": 6400,
+                "y": 1560,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come44.png": {
+            "frame": {
+                "x": 0,
+                "y": 2080,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come45.png": {
+            "frame": {
+                "x": 640,
+                "y": 2080,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come46.png": {
+            "frame": {
+                "x": 1280,
+                "y": 2080,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come47.png": {
+            "frame": {
+                "x": 1920,
+                "y": 2080,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come48.png": {
+            "frame": {
+                "x": 2560,
+                "y": 2080,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come49.png": {
+            "frame": {
+                "x": 3200,
+                "y": 2080,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come50.png": {
+            "frame": {
+                "x": 3840,
+                "y": 2080,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come51.png": {
+            "frame": {
+                "x": 4480,
+                "y": 2080,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come52.png": {
+            "frame": {
+                "x": 5120,
+                "y": 2080,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come53.png": {
+            "frame": {
+                "x": 5760,
+                "y": 2080,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come54.png": {
+            "frame": {
+                "x": 6400,
+                "y": 2080,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come55.png": {
+            "frame": {
+                "x": 0,
+                "y": 2600,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come56.png": {
+            "frame": {
+                "x": 640,
+                "y": 2600,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come57.png": {
+            "frame": {
+                "x": 1280,
+                "y": 2600,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come58.png": {
+            "frame": {
+                "x": 1920,
+                "y": 2600,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come59.png": {
+            "frame": {
+                "x": 2560,
+                "y": 2600,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come60.png": {
+            "frame": {
+                "x": 3200,
+                "y": 2600,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come61.png": {
+            "frame": {
+                "x": 3840,
+                "y": 2600,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come62.png": {
+            "frame": {
+                "x": 4480,
+                "y": 2600,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come63.png": {
+            "frame": {
+                "x": 5120,
+                "y": 2600,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come64.png": {
+            "frame": {
+                "x": 5760,
+                "y": 2600,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come65.png": {
+            "frame": {
+                "x": 6400,
+                "y": 2600,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come66.png": {
+            "frame": {
+                "x": 0,
+                "y": 3120,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come67.png": {
+            "frame": {
+                "x": 640,
+                "y": 3120,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come68.png": {
+            "frame": {
+                "x": 1280,
+                "y": 3120,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come69.png": {
+            "frame": {
+                "x": 1920,
+                "y": 3120,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come70.png": {
+            "frame": {
+                "x": 2560,
+                "y": 3120,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come71.png": {
+            "frame": {
+                "x": 3200,
+                "y": 3120,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come72.png": {
+            "frame": {
+                "x": 3840,
+                "y": 3120,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come73.png": {
+            "frame": {
+                "x": 4480,
+                "y": 3120,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come74.png": {
+            "frame": {
+                "x": 5120,
+                "y": 3120,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come75.png": {
+            "frame": {
+                "x": 5760,
+                "y": 3120,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come76.png": {
+            "frame": {
+                "x": 6400,
+                "y": 3120,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come77.png": {
+            "frame": {
+                "x": 0,
+                "y": 3640,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come78.png": {
+            "frame": {
+                "x": 640,
+                "y": 3640,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come79.png": {
+            "frame": {
+                "x": 1280,
+                "y": 3640,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come80.png": {
+            "frame": {
+                "x": 1920,
+                "y": 3640,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come81.png": {
+            "frame": {
+                "x": 2560,
+                "y": 3640,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come82.png": {
+            "frame": {
+                "x": 3200,
+                "y": 3640,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come83.png": {
+            "frame": {
+                "x": 3840,
+                "y": 3640,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come84.png": {
+            "frame": {
+                "x": 4480,
+                "y": 3640,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come85.png": {
+            "frame": {
+                "x": 5120,
+                "y": 3640,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come86.png": {
+            "frame": {
+                "x": 5760,
+                "y": 3640,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come87.png": {
+            "frame": {
+                "x": 6400,
+                "y": 3640,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come88.png": {
+            "frame": {
+                "x": 0,
+                "y": 4160,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come89.png": {
+            "frame": {
+                "x": 640,
+                "y": 4160,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come90.png": {
+            "frame": {
+                "x": 1280,
+                "y": 4160,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come91.png": {
+            "frame": {
+                "x": 1920,
+                "y": 4160,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come92.png": {
+            "frame": {
+                "x": 2560,
+                "y": 4160,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come93.png": {
+            "frame": {
+                "x": 3200,
+                "y": 4160,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come94.png": {
+            "frame": {
+                "x": 3840,
+                "y": 4160,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come95.png": {
+            "frame": {
+                "x": 4480,
+                "y": 4160,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come96.png": {
+            "frame": {
+                "x": 5120,
+                "y": 4160,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come97.png": {
+            "frame": {
+                "x": 5760,
+                "y": 4160,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come98.png": {
+            "frame": {
+                "x": 6400,
+                "y": 4160,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come99.png": {
+            "frame": {
+                "x": 0,
+                "y": 4680,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come100.png": {
+            "frame": {
+                "x": 640,
+                "y": 4680,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come101.png": {
+            "frame": {
+                "x": 1280,
+                "y": 4680,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come102.png": {
+            "frame": {
+                "x": 1920,
+                "y": 4680,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come103.png": {
+            "frame": {
+                "x": 2560,
+                "y": 4680,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come104.png": {
+            "frame": {
+                "x": 3200,
+                "y": 4680,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come105.png": {
+            "frame": {
+                "x": 3840,
+                "y": 4680,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come106.png": {
+            "frame": {
+                "x": 4480,
+                "y": 4680,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come107.png": {
+            "frame": {
+                "x": 5120,
+                "y": 4680,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come108.png": {
+            "frame": {
+                "x": 5760,
+                "y": 4680,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come109.png": {
+            "frame": {
+                "x": 6400,
+                "y": 4680,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come110.png": {
+            "frame": {
+                "x": 0,
+                "y": 5200,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come111.png": {
+            "frame": {
+                "x": 640,
+                "y": 5200,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come112.png": {
+            "frame": {
+                "x": 1280,
+                "y": 5200,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come113.png": {
+            "frame": {
+                "x": 1920,
+                "y": 5200,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come114.png": {
+            "frame": {
+                "x": 2560,
+                "y": 5200,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come115.png": {
+            "frame": {
+                "x": 3200,
+                "y": 5200,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come116.png": {
+            "frame": {
+                "x": 3840,
+                "y": 5200,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come117.png": {
+            "frame": {
+                "x": 4480,
+                "y": 5200,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come118.png": {
+            "frame": {
+                "x": 5120,
+                "y": 5200,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come119.png": {
+            "frame": {
+                "x": 5760,
+                "y": 5200,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come120.png": {
+            "frame": {
+                "x": 6400,
+                "y": 5200,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come121.png": {
+            "frame": {
+                "x": 0,
+                "y": 5720,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come122.png": {
+            "frame": {
+                "x": 640,
+                "y": 5720,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come123.png": {
+            "frame": {
+                "x": 1280,
+                "y": 5720,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come124.png": {
+            "frame": {
+                "x": 1920,
+                "y": 5720,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come125.png": {
+            "frame": {
+                "x": 2560,
+                "y": 5720,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come126.png": {
+            "frame": {
+                "x": 3200,
+                "y": 5720,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come127.png": {
+            "frame": {
+                "x": 3840,
+                "y": 5720,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come128.png": {
+            "frame": {
+                "x": 4480,
+                "y": 5720,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come129.png": {
+            "frame": {
+                "x": 5120,
+                "y": 5720,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come130.png": {
+            "frame": {
+                "x": 5760,
+                "y": 5720,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come131.png": {
+            "frame": {
+                "x": 6400,
+                "y": 5720,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come132.png": {
+            "frame": {
+                "x": 0,
+                "y": 6240,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come133.png": {
+            "frame": {
+                "x": 640,
+                "y": 6240,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come134.png": {
+            "frame": {
+                "x": 1280,
+                "y": 6240,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come135.png": {
+            "frame": {
+                "x": 1920,
+                "y": 6240,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come136.png": {
+            "frame": {
+                "x": 2560,
+                "y": 6240,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come137.png": {
+            "frame": {
+                "x": 3200,
+                "y": 6240,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come138.png": {
+            "frame": {
+                "x": 3840,
+                "y": 6240,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come139.png": {
+            "frame": {
+                "x": 4480,
+                "y": 6240,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come140.png": {
+            "frame": {
+                "x": 5120,
+                "y": 6240,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come141.png": {
+            "frame": {
+                "x": 5760,
+                "y": 6240,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come142.png": {
+            "frame": {
+                "x": 6400,
+                "y": 6240,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come143.png": {
+            "frame": {
+                "x": 0,
+                "y": 6760,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come144.png": {
+            "frame": {
+                "x": 640,
+                "y": 6760,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come145.png": {
+            "frame": {
+                "x": 1280,
+                "y": 6760,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come146.png": {
+            "frame": {
+                "x": 1920,
+                "y": 6760,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come147.png": {
+            "frame": {
+                "x": 2560,
+                "y": 6760,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come148.png": {
+            "frame": {
+                "x": 3200,
+                "y": 6760,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        },
+        "valorant-vergaderzaal-kingdom-come149.png": {
+            "frame": {
+                "x": 3840,
+                "y": 6760,
+                "w": 640,
+                "h": 520
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 520
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 520
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/piskelapp/piskel/",
+        "version": "1.0",
+        "image": "valorant-vergaderzaal-kingdom-come.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 7040,
+            "h": 7280
+        }
+    }
+}
