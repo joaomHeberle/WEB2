@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <title>RESTful</title>
+</head>
+<body>
+    <h2>LISTA DE pessoas:</h2>
+    <ul>
+        <% for(pessoa of pessoas){ %>
+            <li>Nome: <%=pessoa.nome%> <a href="/pessoas/<%=pessoa._id%>">CPF: <%=pessoa.cpf%></a>Email:<%=pessoa.email%></li>
+       
+
+        <%}%>
+
+
+    </ul>
+    <a href="/pessoas/new"><button>cadastrar pessoa</button></a>
+</body>
+</html>

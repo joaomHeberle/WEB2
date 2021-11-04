@@ -8,7 +8,7 @@ let scoreText;
 let nivel=1;
 let txtKill;
 let nivelTxt;
-
+let level = 1;
 var config = {
     type: Phaser.AUTO,
     parent: 'content',
@@ -42,7 +42,9 @@ function preload() {
     // load the game assets – enemy and turret atlas
     this.load.atlas('torre1', '/sprite/orcsheet.png', '/sprite/orcsheet.json');
     this.load.atlas('torre2', '/sprite/1.png', '/sprite/1.json');
-    this.load.image('bullet', '/sprite/bala.png');
+    this.load.atlas('torre3', '/sprite/2.png', '/sprite/2.json');
+    this.load.image('bullet1', '/sprite/bala.png');
+    this.load.image('bullet2', '/sprite/bala2.png');
     this.load.image('mapa1', '/cenarios/mapa.png');
     this.load.atlas('over', '/imgs/valorant-vergaderzaal-kingdom-come.png', '/imgs/valorant-vergaderzaal-kingdom-come.json');
 }
@@ -104,8 +106,14 @@ var Turret = new Phaser.Class({
     Extends: Phaser.GameObjects.Image,
     initialize:
         function Turret(scene) {
+            if(level==1){
             Phaser.GameObjects.Image.call(this, scene, 0, 0, 'torre2', 'turret');
             this.nextTic = 0;
+            level++;
+        }else{
+            Phaser.GameObjects.Image.call(this, scene, 0, 0, 'torre3', 'turret');
+            this.nextTic = 0;
+        }
         },
     // we will place the turret according to the grid
     place: function (i, j) {
@@ -176,11 +184,19 @@ var Bullet = new Phaser.Class({
     Extends: Phaser.GameObjects.Image,
     initialize:
         function Bullet(scene) {
-            Phaser.GameObjects.Image.call(this, scene, 0, 0, 'bullet');
+            if(level==1){
+                Phaser.GameObjects.Image.call(this, scene, 0, 0, 'bullet1');
+         
+               
+            }else{
+                Phaser.GameObjects.Image.call(this, scene, 0, 0, 'bullet2');
+               
+            }
             this.dx = 0;
             this.dy = 0;
             this.lifespan = 0;
             this.speed = Phaser.Math.GetSpeed(600, 1);
+           
         },
     fire: function (x, y, angle) {
         this.setActive(true);
@@ -188,7 +204,8 @@ var Bullet = new Phaser.Class({
         //  Bullets fire from the middle of the screen to the given x/y
         this.setPosition(x, y);
         //  we don't need to rotate the bullets as they are round
-        //  this.setRotation(angle);
+                    
+        this.setRotation(angle);
         this.dx = Math.cos(angle);
         this.dy = Math.sin(angle);
         this.lifespan = 300;
@@ -218,7 +235,7 @@ function getEnemy(x, y, distance) {
     return false;
 }
 function damageEnemy(enemy, bullet) {
-    let BULLET_DAMAGE = 20;
+    let BULLET_DAMAGE = 20+((nivel-1)*10);
     // only if both enemy and bullet are alive
     if (enemy.active === true && bullet.active === true) {
         // we remove the bullet right away
@@ -232,10 +249,6 @@ function damageEnemy(enemy, bullet) {
 
 
 function create() {
-  
-    this.anims.create({ key: 'skele', frames: this.anims.generateFrameNames('over', { prefix: 'valorant-vergaderzaal-kingdom-come', end: 149, zeroPad: 0 ,suffix:'.png'}), repeat: -1 });
-    
-    this.add.sprite(300, 250, 'over').play('skele');
     this.add.image(320, 250, 'mapa1');
 
     // the path for our enemies
@@ -270,12 +283,6 @@ function create() {
 
  
 
-}
-function fimDeJogo(){
-    if(gameOver){
-        this.add.sprite(300, 250, 'over').play('skele');
-        
-    }
 }
 
 

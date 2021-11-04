@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <title>RESTful</title>
+</head>
+<body>
+    <h2>adicionar pessoa:</h2>
+    <form action="/pessoas" method="post">
+        <label for="nome"></label>
+        <input type="text" name="nome" id="nome" required>
+        <label for="email"></label>
+        <input type="email" name="email" id="email">
+        <label for="cpf"></label>
+        <input type="text" name="cpf" id="cpf" required>
+
+<button type="submit">enviar</button>
+
+    </form>
+
+<a href="/pessoas"><button>voltar</button></a>
+
+    
+</body>
+</html>

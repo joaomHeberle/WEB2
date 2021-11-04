@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <title>RESTful</title>
+</head>
+<body>
+    <h2>get pessoa:</h2>
+    
+     
+            <p>Nome: <%=pessoa.nome%> ID: <%=pessoa.cpf%></a>Email:<%=pessoa.email%></p>
+
+             <a href="/pessoas/<%=pessoa._id%>/edit"> <button type="submit">Alterar</button></a>
+            <form action="/pessoas/<%=pessoa._id%>?_method=DELETE" method="post">
+            <button type="submit">Deletar</button></a>
+        </form> 
+<a href="/pessoas"><button>voltar</button></a>
+
+    
+</body>
+</html>
