@@ -12,7 +12,7 @@ let level = 1;
 var config = {
     type: Phaser.AUTO,
     parent: 'content',
-    width: 640,
+    width: 800,
     height: 512,
     physics: {
         default: 'arcade'

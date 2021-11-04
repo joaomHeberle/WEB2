@@ -69,6 +69,12 @@ app.get("/jogo/play",  (req, res) => {
     res.render('jogo/jogar');
 
 });
+app.get("/jogo/play2",  (req, res) => {
+    //const pessoas =await Pessoa.find({});
+
+    res.render('jogo/jogo2');
+
+});
 app.get("/jogo/gameOver",  (req, res) => {
     //const pessoas =await Pessoa.find({});
 

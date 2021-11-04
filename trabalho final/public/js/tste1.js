@@ -4,7 +4,7 @@ var scoreText;
 var config = {
     type: Phaser.AUTO,
     width: 800,
-    height: 600,
+    height: 540,
     physics: {
         default: 'arcade',
         arcade: {
@@ -38,7 +38,7 @@ function create() {
     
     platforms = this.physics.add.staticGroup();
 
-    platforms.create(400, 568, 'ground').setScale(2).refreshBody();
+    platforms.create(400, 540, 'ground').setScale(2).refreshBody();
 
     platforms.create(600, 400, 'ground');
     platforms.create(50, 250, 'ground');
@@ -112,14 +112,8 @@ this.physics.add.collider(bombs, platforms);
 this.physics.add.collider(player, bombs, hitBomb, null, this);
 function hitBomb (player, bomb)
 {
-    this.physics.pause();
-
-    player.setTint(0xff0000);
-
-    player.anims.play('turn');
-
-    gameOver = true;
-  
+ 
+    location.href = "gameOver";
 }
 }
 
