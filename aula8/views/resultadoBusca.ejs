@@ -1,7 +1,7 @@
 <%- include('partials/head') %>
 
-<% if(resposta.totalItems > 0) { %>
-    <h2>Livros encontrados</h2>
+<!-- <% if(resposta.totalItems > 0) { %>
+    <h2>seu clima encontrados</h2>
 
     <% for(item of resposta.items) {
         const livro = item.volumeInfo;
@@ -35,6 +35,10 @@
 
 <% } else { %>
     <h2>Nenhum livro encontrado</h2>
-<% } %>
+<% } %> -->
+
+seu clima:<%=resposta.results.temp%><br>
+tempo: <%=resposta.results.description%>
+
 <a href="/"><p id="voltar">Voltar</p></a>
 <%- include('partials/footer') %>
