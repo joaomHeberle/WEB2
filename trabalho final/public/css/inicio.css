@@ -4,4 +4,9 @@
 #game{
     width: 12rem;
 height: 100%;   
+max-width: 100% !important;
+}
+
+.img-fluid{
+     max-width: 40% !important;
 }

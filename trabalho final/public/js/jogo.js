@@ -1,14 +1,16 @@
 
-let gameOver=false;
+
 let morreu = false;
 let cont = 0;
 let moeda = 20;
 let score = 0;
-let scoreText;
-let nivel=1;
+let scoreTxt;
+let nivel = 1;
 let txtKill;
 let nivelTxt;
 let level = 1;
+let levelTxt;
+
 var config = {
     type: Phaser.AUTO,
     parent: 'content',
@@ -40,6 +42,7 @@ var path;
 var ENEMY_SPEED = 1 / 10000;
 function preload() {
     // load the game assets – enemy and turret atlas
+    this.load.image('upButton', '/imgs/button.png');
     this.load.atlas('torre1', '/sprite/orcsheet.png', '/sprite/orcsheet.json');
     this.load.atlas('torre2', '/sprite/1.png', '/sprite/1.json');
     this.load.atlas('torre3', '/sprite/2.png', '/sprite/2.json');
@@ -70,7 +73,7 @@ var Enemy = new Phaser.Class({
             this.setVisible(false);
             location.href = "gameOver";
         }
- 
+
     },
     startOnPath: function () {
         // set the t parameter at the start of the path
@@ -81,7 +84,7 @@ var Enemy = new Phaser.Class({
 
         // set the x and y of our enemy to the received from the previous step
         this.setPosition(this.follower.vec.x, this.follower.vec.y);
-        if (cont < 10)
+        if (cont <= 10)
             this.hp = 100;
         if (cont > 10)
             this.hp = 300;
@@ -94,8 +97,8 @@ var Enemy = new Phaser.Class({
             this.setActive(false);
             this.setVisible(false);
             morreu = true;
-            moeda+=10;
-            console.log(moeda);
+            moeda += 10;
+         
         }
     },
 
@@ -106,24 +109,24 @@ var Turret = new Phaser.Class({
     Extends: Phaser.GameObjects.Image,
     initialize:
         function Turret(scene) {
-            if(level==1){
-            Phaser.GameObjects.Image.call(this, scene, 0, 0, 'torre2', 'turret');
-            this.nextTic = 0;
-            level++;
-        }else{
-            Phaser.GameObjects.Image.call(this, scene, 0, 0, 'torre3', 'turret');
-            this.nextTic = 0;
-        }
+            if (level == 1) {
+                Phaser.GameObjects.Image.call(this, scene, 0, 0, 'torre2', 'turret');
+                this.nextTic = 0;
+
+            } else {
+                Phaser.GameObjects.Image.call(this, scene, 0, 0, 'torre3', 'turret');
+                this.nextTic = 0;
+            }
         },
     // we will place the turret according to the grid
     place: function (i, j) {
-       
+
         this.y = i * 64 + 64 / 2;
         this.x = j * 64 + 64 / 2;
         map[i][j] = 1;
-        moeda-=10;
-  
-    
+        moeda -= 10;
+
+
 
     },
     fire: function () {
@@ -143,30 +146,30 @@ var Turret = new Phaser.Class({
 });
 
 function placeTurret(pointer) {
-  
 
 
-        var i = Math.floor(pointer.y / 64);
-        var j = Math.floor(pointer.x / 64);
-        if (canPlaceTurret(i, j)) {
-            var turret = turrets.get();
-            if (turret) {
-                turret.setActive(true);
-                turret.setVisible(true);
-                turret.place(i, j);
-            }
+
+    var i = Math.floor(pointer.y / 64);
+    var j = Math.floor(pointer.x / 64);
+    if (canPlaceTurret(i, j)) {
+        var turret = turrets.get();
+        if (turret) {
+            turret.setActive(true);
+            turret.setVisible(true);
+            turret.place(i, j);
         }
-        
-    
+    }
+
+
 }
 function canPlaceTurret(i, j) {
-    if(moeda>=10){
+    if (moeda >= 10) {
         return map[i][j] === 0;
-        moeda-=10;
-        console.log(moeda);
-        
+        moeda -= 10;
+
+
     }
-   
+
 }
 function drawGrid(graphics) {
     graphics.lineStyle(1, 0x0000ff, 0.8);
@@ -184,27 +187,23 @@ var Bullet = new Phaser.Class({
     Extends: Phaser.GameObjects.Image,
     initialize:
         function Bullet(scene) {
-            if(level==1){
-                Phaser.GameObjects.Image.call(this, scene, 0, 0, 'bullet1');
-         
-               
-            }else{
-                Phaser.GameObjects.Image.call(this, scene, 0, 0, 'bullet2');
-               
-            }
+
+            Phaser.GameObjects.Image.call(this, scene, 0, 0, 'bullet1');
+
             this.dx = 0;
             this.dy = 0;
             this.lifespan = 0;
             this.speed = Phaser.Math.GetSpeed(600, 1);
-           
+
         },
     fire: function (x, y, angle) {
+
         this.setActive(true);
         this.setVisible(true);
         //  Bullets fire from the middle of the screen to the given x/y
         this.setPosition(x, y);
         //  we don't need to rotate the bullets as they are round
-                    
+
         this.setRotation(angle);
         this.dx = Math.cos(angle);
         this.dy = Math.sin(angle);
@@ -221,6 +220,7 @@ var Bullet = new Phaser.Class({
     }
 });
 function addBullet(x, y, angle) {
+
     var bullet = bullets.get();
     if (bullet) {
         bullet.fire(x, y, angle);
@@ -235,7 +235,7 @@ function getEnemy(x, y, distance) {
     return false;
 }
 function damageEnemy(enemy, bullet) {
-    let BULLET_DAMAGE = 20+((nivel-1)*10);
+    let BULLET_DAMAGE = 20 + ((level - 1) * 10);
     // only if both enemy and bullet are alive
     if (enemy.active === true && bullet.active === true) {
         // we remove the bullet right away
@@ -244,12 +244,18 @@ function damageEnemy(enemy, bullet) {
 
         // decrease the enemy hp with BULLET_DAMAGE
         enemy.receiveDamage(BULLET_DAMAGE);
+    
     }
 }
 
 
 function create() {
+
     this.add.image(320, 250, 'mapa1');
+    let up = this.add.image(80, 370, 'upButton').setInteractive();
+
+
+
 
     // the path for our enemies
     // parameters are the start x and y of our path
@@ -263,34 +269,51 @@ function create() {
 
     turrets = this.add.group({ classType: Turret, runChildUpdate: true });
 
-   
-        this.input.on('pointerdown', placeTurret);
-       
-    
-   
+
+    this.input.on('pointerdown', placeTurret);
+
+
+
     bullets = this.physics.add.group({ classType: Bullet, runChildUpdate: true });
     this.physics.add.overlap(enemies, bullets, damageEnemy);
     var enemy = enemies.get();
     enemy.setActive(true);
     enemy.setVisible(true);
     enemy.startOnPath();
-    scoreText = this.add.text(50, 420, 'Moeda: '+moeda, { font: '32px Courier'});
-    killTxt = this.add.text(50, 450, 'Kill:    '+cont, { font: '32px Courier'});
-    nivelTxt = this.add.text(50, 480, 'Nivel: '+nivel, { font: '32px Courier'});
-        scoreText.setTint(0xff00ff, 0xffff00, 0x0000ff, 0xff0000);
-        killTxt.setTint(0xff00ff, 0xffff00, 0x0000ff, 0xff0000);
-        nivelTxt.setTint(0xff00ff, 0xffff00, 0x0000ff, 0xff0000);
+    levelTxt = this.add.text(50, 390, 'Level: ' + level, { font: '32px Courier' });
+    scoreTxt = this.add.text(50, 420, 'Moeda: ' + moeda, { font: '32px Courier' });
+    killTxt = this.add.text(50, 450, 'Kill:    ' + cont, { font: '32px Courier' });
+    nivelTxt = this.add.text(50, 480, 'Nivel: ' + nivel, { font: '32px Courier' });
+    scoreTxt.setTint(0xff00ff, 0xffff00, 0x0000ff, 0xff0000);
+    killTxt.setTint(0xff00ff, 0xffff00, 0x0000ff, 0xff0000);
+    nivelTxt.setTint(0xff00ff, 0xffff00, 0x0000ff, 0xff0000);
+    levelTxt.setTint(0xff00ff, 0xffff00, 0x0000ff, 0xff0000);
+    up.on('pointerdown', function () {
 
- 
+        this.setTint(0xff44ff);
+        if (moeda >= 10*level) {
+
+            bullets.setTint(0xff44ff);
+            moeda -= 10*level;
+            level++;
+        }
+    });
+    up.on('pointerup', function () {
+
+        this.clearTint();
+
+    });
+
 
 }
 
 
 function update(time, delta) {
 
-    scoreText.setText('Moeda: ' + moeda);
+    scoreTxt.setText('Moeda: ' + moeda);
     killTxt.setText('Kill: ' + cont);
     nivelTxt.setText('Nivel: ' + nivel);
+    levelTxt.setText('Level: ' + level);
     // if its time for the next enemy
     if (time > this.nextEnemy && morreu) {
         var enemy = enemies.get();
@@ -306,13 +329,14 @@ function update(time, delta) {
 
 
 
-            console.log(cont);
+        
+
         }
         cont++;
         morreu = false;
-        if(cont%10==0&&cont>1)
-        nivel++;
+        if (cont % 10 == 0 && cont > 1)
+            nivel++;
 
     }
- 
+
 }
