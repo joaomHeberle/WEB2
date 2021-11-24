@@ -1,3 +1,7 @@
+body{
+ background-color:cornflowerblue;
+
+}
 #bemVindo{
     text-align: center;
 }
@@ -9,4 +13,7 @@ max-width: 100% !important;
 
 .img-fluid{
      max-width: 40% !important;
+}
+.quadrado{
+    background-color: white;
 }

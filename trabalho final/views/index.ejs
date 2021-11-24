@@ -6,33 +6,32 @@
        
          
         
-   
+
     <!-- Custom styles for this template -->
     <link href="/css/signin.css" rel="stylesheet">
   </head>
   <%-include('partials/header') %>
-<main class="form-signin text-center sigMain">
-  <form>
-    <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
-
-    <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email address</label>
-    </div>
-    <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Password</label>
-    </div>
-
-    <div class="checkbox mb-3">
-      <label>
-        <input type="checkbox" value="remember-me"> Remember me
-      </label>
-    </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
  
-  </form>
+<main class="form-signin text-center sigMain">
+  <form action="/" method="post">
+    <img class="mb-4 figure-img img-fluid rounded" src="/imgs/intro.png" alt="" width="350" height="150">
+    <h1 class="h3 mb-3 fw-normal">Entrar no Portal de 2 jogos</h1>
+
+    <div class="form-floating">
+      <input type="email" class="form-control" name="username" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Senha</label>
+    </div>
+
+ 
+    <button class="w-100 btn btn-lg btn-primary mb-2" type="submit">Entrar</button>
+ 
+  </form><form action="/jogo/cadastro" method="get">
+  <button class="w-100 btn btn-lg btn-primary mb-2" type="submit" >Cadastro</button>
+</form>
 </main>
 
 <%-include('partials/footer') %>

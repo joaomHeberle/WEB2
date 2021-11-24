@@ -1,7 +1,10 @@
 html,
 body {
   height: 100%;
+  background-color:cornflowerblue;
+ 
 }
+
 
 #sigMain {
   display: flex;
