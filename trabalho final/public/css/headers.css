@@ -23,3 +23,11 @@
 .dropdown-toggle {
   outline: 0;
 }
+
+.meu-btn{
+  margin: auto;
+}
+
+.meu-inicio-li{
+  width:20%;
+}

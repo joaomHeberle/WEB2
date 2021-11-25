@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const passport = require('passport');
 const LocalSt = require('passport-local');
 const expressSession = require('express-session');
-const { moveMessagePortToContext } = require('worker_threads');
+
 
 
 
@@ -145,12 +145,9 @@ app.get("/logout", isLoggedIn,(req, res) => {
 
 });
 
-//   app.get('/jogo/ranking:id', async (req, res) => {
-//       const { id } = req.params;
-//       const jogador =await Jogador.findById(id);
-//      res.render('jogo/ranking', {jogador});
 
-//   });
+
+
 app.post("/", isLoggedIn,async (req, res) => {
     const novoJogador= new Jogador(req.body);
     await novoJogador.save();
@@ -170,27 +167,36 @@ app.post("/", isLoggedIn,async (req, res) => {
      res.redirect('/jogo/inicio');
 
   });
-// app.delete("/pessoas/:id", async (req, res) => {
-//     const { id } = req.params;
-//     await Pessoa.findByIdAndDelete(id);
-//     res.redirect('/pessoas');
+  app.get("/jogo/deletar",isLoggedIn, async (req, res) => {
 
+    res.render('jogo/deletar');
+});
+app.delete("/jogo/deletar/:id", async (req, res) => {
+    const { id } = req.params;
+    await Jogador.findByIdAndDelete(id);
+    res.redirect('/');
+});
+
+// app.delete("/jogo/:id", async (req, res) => {
+//     const { id } = req.params;
+//     await Jogador.findByIdAndDelete(id);
+//     res.redirect('/');
 // });
 
 app.get("/jogo/play2",  (req, res) => {
-    //const pessoas =await Pessoa.find({});
+  
 
     res.render('jogo/jogar');
 
 });
 app.get("/jogo/play",  (req, res) => {
-    //const pessoas =await Pessoa.find({});
+   
 
     res.render('jogo/jogo2');
 
 });
 app.get("/jogo/gameOver",  (req, res) => {
-    //const pessoas =await Pessoa.find({});
+  
 
     res.render('jogo/gameOver');
 

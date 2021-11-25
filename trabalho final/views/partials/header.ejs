@@ -15,18 +15,18 @@
         <li><a href="/jogo/inicio" class="nav-link px-2 text-white">Inicio</a></li>
         <li><a href="/jogo/ranking1" class="nav-link px-2 text-white">Ranking Jogo 1</a></li>
         <li><a href="/jogo/ranking2" class="nav-link px-2 text-white">Ranking Jogo 2</a></li>
-        <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-        <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+     
       </ul>
 
 
       <div class="text-end">
         <% if(currentUser) { %> 
-          <a href="/logout">   <button type="button" class="btn btn-outline-light me-2">Sair</button></a>
-          <a href="/jogo/atualizar">   <button type="button" class="btn btn-outline-light me-2">Atualizar</button></a>
+          <a href="/jogo/atualizar" role="button" class="btn btn-warning me-2">Atualizar</a>
+          <a href="/logout" role="button" class="btn btn-danger me-2">Sair</a>
+
         <% }else{ %> 
-         <button type="button" class="btn btn-outline-light me-2">Logar</button>
-        <a href="/jogo/cadastro"> <button type="button" class="btn btn-warning" >Cadastrar</button></a>
+          <a href="/"  role="button" class="btn btn-outline-light me-2">Logar</a>
+        <a href="/jogo/cadastro" role="button" class="btn btn-success me-2">Cadastrar</a>
         <% } %> 
       </div>
     </div>
