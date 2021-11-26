@@ -130,7 +130,7 @@ app.get("/jogo/ranking2", async  (req, res) => {
         const {nome,username,password,highScore1,highScore2,dataDeNascimento} = req.body;
         const jogador = new Jogador({username,nome,highScore1,highScore2,dataDeNascimento});
         const jogadorReg = await Jogador.register(jogador,password);
-        // console.log(jogadorReg);
+     
      } catch (error) {
          console.log(error);
      }
@@ -178,11 +178,7 @@ app.delete("/jogo/deletar/:id", async (req, res) => {
     res.redirect('/');
 });
 
-// app.delete("/jogo/:id", async (req, res) => {
-//     const { id } = req.params;
-//     await Jogador.findByIdAndDelete(id);
-//     res.redirect('/');
-// });
+
 
 app.get("/jogo/play2",isLoggedIn,  (req, res) => {
   
@@ -196,12 +192,12 @@ app.get("/jogo/play",isLoggedIn, (req, res) => {
     res.render('jogo/jogo2');
 
 });
-app.get("/jogo/gameOver1",  (req, res) => {
+// app.get("/jogo/gameOver1",  (req, res) => {
   
 
-    res.render('jogo/gameOver');
+//     res.render('jogo/gameOver');
 
-});
+// });
 
 app.put("/jogo/gameOver1/:id", async (req, res) => {
     const {highScore1} = req.body;
