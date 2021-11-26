@@ -70,7 +70,9 @@ var Enemy = new Phaser.Class({
         if (this.follower.t >= 1) {
             this.setActive(false);
             this.setVisible(false);
-            location.href = "gameOver";
+            document.getElementById("valorhighScore2").value=score;
+         document.getElementById("gameOver").submit();
+
         }
 
     },

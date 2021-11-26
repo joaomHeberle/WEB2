@@ -113,7 +113,8 @@ this.physics.add.collider(player, bombs, hitBomb, null, this);
 function hitBomb (player, bomb)
 {
  
-    location.href = "gameOver";
+    document.getElementById("valorhighScore1").value=score;
+    document.getElementById("gameOver").submit();
 }
 }
 

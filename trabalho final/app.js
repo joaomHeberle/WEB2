@@ -89,6 +89,7 @@ const isLoggedIn = (req,res,next)=>{
 app.set('view engine', 'ejs');
 
 app.get("/",  (req, res) => {
+
     res.render('index');
 
 });
@@ -183,16 +184,50 @@ app.delete("/jogo/deletar/:id", async (req, res) => {
 //     res.redirect('/');
 // });
 
-app.get("/jogo/play2",  (req, res) => {
+app.get("/jogo/play2",isLoggedIn,  (req, res) => {
   
 
     res.render('jogo/jogar');
 
 });
-app.get("/jogo/play",  (req, res) => {
+app.get("/jogo/play",isLoggedIn, (req, res) => {
    
 
     res.render('jogo/jogo2');
+
+});
+app.get("/jogo/gameOver1",  (req, res) => {
+  
+
+    res.render('jogo/gameOver');
+
+});
+
+app.put("/jogo/gameOver1/:id", async (req, res) => {
+    const {highScore1} = req.body;
+
+     const { id } = req.params;
+     const highBanco= await Jogador.findById(id, {highScore1:1});
+   
+
+   if(highScore1>highBanco.highScore1){
+   await Jogador.findByIdAndUpdate(id,req.body, {runValidators:true})
+   }
+       await res.redirect('/jogo/gameOver');
+   
+   });
+
+app.put("/jogo/gameOver2/:id", async (req, res) => {
+ const {highScore2} = req.body;
+
+  const { id } = req.params;
+  const highBanco= await Jogador.findById(id, {highScore2:1});
+
+
+if(highScore2>highBanco.highScore2){
+await Jogador.findByIdAndUpdate(id,req.body, {runValidators:true})
+}
+    await res.redirect('/jogo/gameOver');
 
 });
 app.get("/jogo/gameOver",  (req, res) => {

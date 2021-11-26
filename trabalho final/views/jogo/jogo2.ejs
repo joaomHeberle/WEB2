@@ -6,7 +6,9 @@
         
 <%-include('../partials/header') %>
    
-
+<form action="/jogo/gameOver1/<%=currentUser._id%>?_method=PUT" method="post" id="gameOver"> 
+    <input name="highScore1" type="hidden" class="form-control" id="valorhighScore1" placeholder="" required>
+</form>
     
  
 

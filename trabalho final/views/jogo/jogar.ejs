@@ -6,7 +6,9 @@
         
 <%-include('../partials/header') %>
     <script id="jogo" src="/js/jogo.js"></script>
-
+    <form action="/jogo/gameOver2/<%=currentUser._id%>?_method=PUT" method="post" id="gameOver"> 
+        <input name="highScore2" type="hidden" class="form-control" id="valorhighScore2" placeholder="" required>
+    </form>
 
  
     <script src="/js/bootstrap.bundle.min.js"></script>
