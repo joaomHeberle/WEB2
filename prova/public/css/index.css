@@ -1,5 +1,13 @@
-body{
-    text-align: -webkit-center;
-    width: 500px;
+.index{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center !important;
+}
 
+
+.meuindex{
+    border-width: 20px;
+    border-color: #ccc;
+    border-style: solid;
+    
 }

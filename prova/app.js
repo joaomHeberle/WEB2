@@ -74,7 +74,7 @@ const isLoggedIn = (req,res,next)=>{
 //     comentario:comentario2
 //  })
 
-//Blog.insertMany([blog1,blog2])
+// Blog.insertMany([blog1,blog2])
 
 //  .then(res=>{
 //  console.log(res)

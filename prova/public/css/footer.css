@@ -1,7 +1,12 @@
 .footer{
-    text-align: right;
+   
     background-color: #ccc;
-    padding-right: 50px;
-    font-family: 'Poppins', sans-serif;
+
+
  
+}
+
+.pFooter{
+    font-weight: bold;
+    margin-right: 50px;
 }
