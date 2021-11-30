@@ -1,7 +1,7 @@
 .index{
     padding-left: 0 !important;
     padding-right: 0 !important;
-    text-align: center !important;
+  
 }
 
 
@@ -9,5 +9,19 @@
     border-width: 20px;
     border-color: #ccc;
     border-style: solid;
+    font-family: 'Source Sans Pro';
     
+}
+
+.linha{
+    border-width: 3px;
+  border-style: solid;
+    border-color: #ccc;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+
 }
