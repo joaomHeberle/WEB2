@@ -7,7 +7,7 @@ const Blog = require('./models/blog')
 const mongoose = require('mongoose');
 const passport = require('passport');
 const LocalSt = require('passport-local');
-
+var moment = require ('moment');
 
 mongoose.connect('mongodb://localhost:27017/blogdb', {useNewUrlParser:true, useUnifiedTopology:true})
 .then(()=>{
@@ -89,8 +89,13 @@ app.set('view engine', 'ejs');
 
 app.get("/index", async  (req, res) => {
     const artigos =await Blog.find({});
-    res.render('index',{ artigos });
+    res.render('index',{ artigos,moment:moment  });
 
+});
+app.get("/index/:id", async (req, res) => {
+const{id} = req.params;
+const artigo = await Blog.findById(id);
+res.render('artigos/show', {artigo,moment:moment});
 });
 
 

@@ -14,14 +14,44 @@
 }
 
 .linha{
-    border-width: 3px;
-  border-style: solid;
-    border-color: #ccc;
-    border-image: 
-    linear-gradient(
-      to bottom, 
-      red, 
-      rgba(0, 0, 0, 0)
-    ) 1 100%;
 
+   /* gradient shining border */
+   background-image: 
+   linear-gradient(to left, rgba(0, 0, 0, 0) 10%, #ccc 50%, rgba(0, 0, 0, 0) 90%);
+background-size: 100% 3px;
+background-position: 0% 0%, 0% 100%;
+background-repeat: no-repeat;
+
+
+
+}
+.imgIndex{
+    float: right;
+    margin: 2px;
+}
+
+.data{
+    color:#3498db;
+    text-transform: uppercase;
+}
+
+.nomeComentario{
+    color:#3498db;
+}
+.tituloComentario{
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+.text{
+    width: 100%;
+
+ border: #ccc 1px solid;
+}
+.textArea{
+
+    height: 80px;
+}
+.pPri{
+    margin: 0 !important;
 }

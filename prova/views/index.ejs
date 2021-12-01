@@ -2,29 +2,24 @@
 <%-include('partials/header') %>
 
 
-<main class="container index ">
-  <div class="md-3 mb-3 mt-3 meuindex">
-    <div class="m-3">
+
+      <%var i=0%>
       <% for(artigo of artigos){%>
-        <div class="linha">
-        <p class="data"><%=artigo.criado%></p>
-        <h1 class="display-4"><%=artigo.titulo %></h1>
-        <p class="lead my-3"><%=artigo.conteudo%></p>
+        <%moment.locale('pt-br');%>
+        <div class="<%if (i>0){%>linha<% } %>  mb-2">
+        <p class="data"><%=moment(artigo.criado).format('DD MMMM YYYY')%></p>
+        <h1><a href="/index/<%= artigo._id %> " class="text-dark"><%=artigo.titulo %></a></h1>
+        <img src="../imagens/<%=artigo.imagem %>" alt="" class="imgIndex">
+        <p class="lead my-3 text-break"><%=artigo.conteudo%>  </p>
+      
       </div>
-    <%}%>
+    <%i++}%>
      
      
-   
-    </div>
-  </div>
+
 
   
-
-</main>
-
 
 <%-include('partials/footer') %>
 
     
-  </body>
-</html>
