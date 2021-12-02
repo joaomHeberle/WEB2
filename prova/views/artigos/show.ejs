@@ -6,23 +6,26 @@
         <%moment.locale('pt-br');%>
         <div class="mb-2 clearfix">
         <p class="data"><%=moment(artigo.criado).format('DD MMMM YYYY')%></p>
-        <h1><a href="/index/<%= artigo._id %> " class="text-dark"><%=artigo.titulo %></a></h1>
-        <img src="../imagens/<%=artigo.imagem %>" alt="" class="imgIndex">
-        <p class="lead my-3"><%=artigo.conteudo%>  </p>
+        <h1><%=artigo.titulo %></h1>
+        <img src="../imagens/<%=artigo.imagem %>" alt="" class="imgShow">
+        <p class="lead my-3 clearfix"><%=artigo.conteudo%>  </p>
         <a href="/index" class="float-end text-dark fw-bold">VOLTAR</a>
       </div>
       <div class="linha">
           <br>
         <p class="tituloComentario">Deixe seu comentário</p>
-
-        <textarea placeholder="deixe aqui seu comentario" class="text textArea"></textarea>
-        <input type="text" class="text clearfix" placeholder="digite aqui seu nome"></input>
-        <a href="/index/<%= artigo._id %> " class="float-end text-dark fw-bold">ENVIAR</a>
+        <form action="/index/<%=artigo._id%>" method="post">
+        <textarea placeholder="deixe aqui seu comentario" name="conteudo" class="text textArea"></textarea>
+        <input type="text" class="text clearfix" name="nome" placeholder="digite aqui seu nome"></input>
+        <button class="btn btn-link float-end text-dark fw-bold">ENVIAR</button>
+        
+        </form>
         <br>
         <p class="tituloComentario mt-5">comentários</p>
-        <p class="pPri"><span class="nomeComentario"><%=artigo.comentario[0].nome%></span> - <%=moment(artigo.comentario[0].data).format('l')%> às <%=artigo.comentario[0].data.getHours()%>h<%=artigo.comentario[0].data.getMinutes()%></p>
-        <p><%=artigo.comentario[0].conteudo%></p>
-
+        <% for(artigoC of artigo.comentario){%>
+        <p class="pPri"><span class="nomeComentario"><%=artigoC.nome%></span> - <%=moment(artigoC.data).format('l')%> às <%=artigo.comentario[0].data.getHours()%>h<%=artigo.comentario[0].data.getMinutes()%></p>
+        <p><%=artigoC.conteudo%></p>
+<% } %> 
 
 
       </div>

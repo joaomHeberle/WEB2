@@ -1,28 +1,14 @@
 const mongoose = require('mongoose');
-const passportLocalMongoose = require('passport-local-mongoose');
+
 const blogSchema = new mongoose.Schema({
 
-    username: {
-        type: String,
-
-    },
-    password: {
-        type: String,
-
-    },
-    conteudo: {
-        type: String
-    },
-    titulo: {
-        type: String
-    },
+    conteudo:String,
+    titulo: String,
     criado: {
         type: Date,
         default: Date.now,
     },
-    imagem: {
-        type: String,
-    },
+    imagem: String,
 
     comentario: [
         {
@@ -41,7 +27,7 @@ const blogSchema = new mongoose.Schema({
 })
 
 
-blogSchema.plugin(passportLocalMongoose);
+
 const Blog = new mongoose.model("Blog", blogSchema);
 
 module.exports = Blog;

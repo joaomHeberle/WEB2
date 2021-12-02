@@ -10,7 +10,7 @@
         <p class="data"><%=moment(artigo.criado).format('DD MMMM YYYY')%></p>
         <h1><a href="/index/<%= artigo._id %> " class="text-dark"><%=artigo.titulo %></a></h1>
         <img src="../imagens/<%=artigo.imagem %>" alt="" class="imgIndex">
-        <p class="lead my-3 text-break"><%=artigo.conteudo%>  </p>
+        <p class="lead my-3 text-break clearfix"><%=artigo.conteudo%>  </p>
       
       </div>
     <%i++}%>

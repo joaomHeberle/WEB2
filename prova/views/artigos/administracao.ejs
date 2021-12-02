@@ -1,0 +1,20 @@
+<%-include('../partials/head') %>
+<%-include('../partials/header') %>
+<h3>Administração do Blog</h3>
+
+<button class="btnADM"><a href="/artigos/new" class="text-dark">Cadastrar novo artigo</a></button>
+<p>Editar ou apagar um artigo</p>
+<% for(artigo of artigos){%>
+  
+     
+    <form></form>
+    <ul>
+<li><a href="/artigos/<%= artigo._id %>/edit " class="text-dark"><%=artigo.titulo %></a></li>
+
+    </ul>
+
+<%}%>
+
+<button  class="btnADM"><a href="/logout" class="text-dark btnADM">Logout</a></button>
+
+<%-include('../partials/footer') %>

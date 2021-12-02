@@ -55,3 +55,60 @@ background-repeat: no-repeat;
 .pPri{
     margin: 0 !important;
 }
+.btnADM{
+border-radius: 4px;
+    
+}
+
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 1px solid;
+}
+legend {
+    float: none;
+    width: 170px;
+    padding: 0;
+    margin-bottom: .5rem;
+    font-size: calc(1.275rem + .3vw);
+    line-height: inherit;
+}
+
+.red{
+color:red;
+}
+.gre{
+    color:green;
+    float: right;
+}
+
+.red a:hover{
+    color:red;
+text-decoration: none!important;
+
+}
+.gre a:hover{
+    text-decoration: none!important;
+    color:green;
+
+}
+
+.btn-link{
+    text-decoration: none;
+}
+.btn-link:hover{
+    text-decoration: underline;
+}
+.imgShow{
+    float: left;
+    margin: 2px;
+}
+
+.redEdit{
+    background-color: red;
+}
+
+p{
+    -webkit-user-modify: read-write-plaintext-only;
+}
