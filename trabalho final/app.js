@@ -58,32 +58,6 @@ const isLoggedIn = (req,res,next)=>{
 
 
 
-// const pessoa1 = new Jogador({
-//     nome: "antonio",
-//     email:"antes@ze",
-//     senha: "333",
-//     highScore1: 2,
-// highScore2: 3,
-// dataDeNascimento:'10-18-1992'
-// })
-// const pessoa2 = new Jogador({
-//     nome: "jose",
-//     email:"j@ze",
-//     senha: "2",
-//     highScore1: 2,
-// highScore2: 3,
-// dataDeNascimento: '10-10-2010'
-// })
-
-// Jogador.insertMany([pessoa1,pessoa2])
-
-// .then(res=>{
-// console.log(res)
-// }
-//     ).catch(e=>{
-
-//             console.log(e);
-//     })
 
 
 app.set('view engine', 'ejs');
@@ -192,12 +166,7 @@ app.get("/jogo/play",isLoggedIn, (req, res) => {
     res.render('jogo/jogo2');
 
 });
-// app.get("/jogo/gameOver1",  (req, res) => {
-  
 
-//     res.render('jogo/gameOver');
-
-// });
 
 app.put("/jogo/gameOver1/:id", async (req, res) => {
     const {highScore1} = req.body;

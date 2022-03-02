@@ -40,7 +40,6 @@ var graphics;
 var path;
 var ENEMY_SPEED = 1 / 10000;
 function preload() {
-    // load the game assets – enemy and turret atlas
     this.load.image('upButton', '/imgs/button.png');
     this.load.atlas('torre1', '/sprite/orcsheet.png', '/sprite/orcsheet.json');
     this.load.atlas('torre2', '/sprite/1.png', '/sprite/1.json');
@@ -58,32 +57,31 @@ var Enemy = new Phaser.Class({
             this.follower = { t: 0, vec: new Phaser.Math.Vector2() };
         },
     update: function (time, delta) {
-        // move the t point along the path, 0 is the start and 0 is the end
+
         this.follower.t += ENEMY_SPEED * delta;
 
-        // get the new x and y coordinates in vec
         path.getPoint(this.follower.t, this.follower.vec);
 
-        // update enemy x and y to the newly obtained x and y
+
         this.setPosition(this.follower.vec.x, this.follower.vec.y);
-        // if we have reached the end of the path, remove the enemy
+
         if (this.follower.t >= 1) {
             this.setActive(false);
             this.setVisible(false);
-            document.getElementById("valorhighScore2").value=score;
+            document.getElementById("valorhighScore2").value=cont;
          document.getElementById("gameOver").submit();
 
         }
 
     },
     startOnPath: function () {
-        // set the t parameter at the start of the path
+    
         this.follower.t = 0;
 
-        // get x and y of the given t point            
+        
         path.getPoint(this.follower.t, this.follower.vec);
 
-        // set the x and y of our enemy to the received from the previous step
+ 
         this.setPosition(this.follower.vec.x, this.follower.vec.y);
         if (cont <= 10)
             this.hp = 100;
@@ -93,7 +91,6 @@ var Enemy = new Phaser.Class({
     receiveDamage: function (damage) {
         this.hp -= damage;
 
-        // if hp drops below 0 we deactivate this enemy
         if (this.hp <= 0) {
             this.setActive(false);
             this.setVisible(false);
@@ -119,7 +116,6 @@ var Turret = new Phaser.Class({
                 this.nextTic = 0;
             }
         },
-    // we will place the turret according to the grid
     place: function (i, j) {
 
         this.y = i * 64 + 64 / 2;
@@ -201,9 +197,7 @@ var Bullet = new Phaser.Class({
 
         this.setActive(true);
         this.setVisible(true);
-        //  Bullets fire from the middle of the screen to the given x/y
         this.setPosition(x, y);
-        //  we don't need to rotate the bullets as they are round
 
         this.setRotation(angle);
         this.dx = Math.cos(angle);
@@ -237,13 +231,10 @@ function getEnemy(x, y, distance) {
 }
 function damageEnemy(enemy, bullet) {
     let BULLET_DAMAGE = 20 + ((level - 1) * 10);
-    // only if both enemy and bullet are alive
     if (enemy.active === true && bullet.active === true) {
-        // we remove the bullet right away
         bullet.setActive(false);
         bullet.setVisible(false);
 
-        // decrease the enemy hp with BULLET_DAMAGE
         enemy.receiveDamage(BULLET_DAMAGE);
     
     }
@@ -258,8 +249,6 @@ function create() {
 
 
 
-    // the path for our enemies
-    // parameters are the start x and y of our path
     path = this.add.path(130, -32);
     path.lineTo(130, 164);
     path.lineTo(480, 164);
@@ -315,14 +304,14 @@ function update(time, delta) {
     killTxt.setText('Kill: ' + cont);
     nivelTxt.setText('Nivel: ' + nivel);
     levelTxt.setText('Level: ' + level);
-    // if its time for the next enemy
+
     if (time > this.nextEnemy && morreu) {
         var enemy = enemies.get();
         if (enemy) {
             enemy.setActive(true);
             enemy.setVisible(true);
 
-            // place the enemy at the start of the path
+      
             enemy.startOnPath();
 
 
